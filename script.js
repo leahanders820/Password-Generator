@@ -6,12 +6,14 @@
 function generatePassword() {
   console.log("button clicked");
 
+  
 
 
-  const lowercaseChars = 'abcdefghijklmnopqrstuvwxyz';
-  const uppercaseChars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
-  const numberChars = '0123456789';
-  const specialChars = '!#$%&()*+,-./:;<=>?@[^_`{|}~';
+
+  const lowercase = 'abcdefghijklmnopqrstuvwxyz';
+  const uppercase = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+  const number = '0123456789';
+  const special = '!#$%&()*+,-./:;<=>?@[^_`{|}~';
 
 
 

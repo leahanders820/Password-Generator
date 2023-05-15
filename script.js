@@ -1,6 +1,33 @@
 // Assignment code here
 
 
+// Create generatePassword function
+
+function generatePassword() {
+  console.log("button clicked");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
 
@@ -12,6 +39,8 @@ function writePassword() {
   passwordText.value = password;
 
 }
+
+
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);

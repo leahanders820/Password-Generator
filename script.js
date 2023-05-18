@@ -1,16 +1,17 @@
 // Assignment code here
 
 
-// Create generatePassword function
+
 
 function generatePassword() {
   console.log("button clicked");
 
 
-  var passwordLength = prompt("choose a password length between 8-128 characters");
+  var passwordlength = prompt("choose a password length between 8-128 characters");
 
   if (passwordlength < 8 || passwordlength > 128) {
     alert("password length must be between 8-128 characters");
+      return;
 
   }
 
@@ -18,6 +19,16 @@ function generatePassword() {
   var includeuppercase = confirm("click OK the include uppercase letters");
   var includenumbers = confirm("click OK to include numbers");
   var includespecial = confirm("click OK to include special characters");
+
+  if (
+    !includelowercase &&
+    !includeuppercase &&
+    !includenumbers &&
+    !includespecial
+  ) {
+    alert('You must select at least one character type');
+    return;
+  }
 
   var password = generatePassword(
     passwordlength,

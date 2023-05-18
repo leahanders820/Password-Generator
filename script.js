@@ -55,8 +55,22 @@ function generatePassword(
   const special = '!#$%&()*+,-./:;<=>?@[^_`{|}~';
 
 
+    var characters = '';
 
-  
+    if (includelowercase){
+      characters += lowercase;
+    }
+    if (includeuppercase){
+      characters += uppercase;
+    }
+    if (includenumbers){
+      characters += numbers;
+    }
+    if (includespecial){
+      characters += special;
+    }
+
+    
 
 
 

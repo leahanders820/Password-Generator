@@ -70,6 +70,8 @@ function generatePassword(
       characters += special;
     }
 
+    
+
 
 
 

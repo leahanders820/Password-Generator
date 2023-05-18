@@ -78,7 +78,7 @@ function generatePassword(
 
 
   
-  return "password";
+  return "password will go here";
 }
 
 

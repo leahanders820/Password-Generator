@@ -3,8 +3,15 @@
 
 
 
-function generatePassword() {
+function generatePassword(
+  passwordlength,
+  includelowercase,
+  includeuppercase,
+  includenumbers,
+  includespecial,
+) {
   console.log("button clicked");
+   
 
 
   var passwordlength = prompt("choose a password length between 8-128 characters");

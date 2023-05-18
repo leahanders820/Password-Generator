@@ -1,1 +1,3 @@
 # Password-Generator
+
+This application is a website that uses javascript to produce a randomly generated password, within certain criteria. Although a work in progress and not completely functional the main desired goals are to have the computer generate a password of a user-chosen length between 8-128 characters, consisting of upper case letters, lower case letters, numbers, and special characters, where the user can choose which type/s of characters they want to be included. When the user hits the generate password button they are given prompts, when the computer is given the criteria the randomly generated password will appear within the text box on the website page.

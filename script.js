@@ -49,10 +49,10 @@ function generatePassword(
 
 
 
-  const lowercase = 'abcdefghijklmnopqrstuvwxyz';
-  const uppercase = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
-  const numbers = '0123456789';
-  const special = '!#$%&()*+,-./:;<=>?@[^_`{|}~';
+  var lowercase = 'abcdefghijklmnopqrstuvwxyz';
+  var uppercase = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+  var numbers = '0123456789';
+  var special = '!#$%&()*+,-./:;<=>?@[^_`{|}~';
 
 
     var characters = '';
